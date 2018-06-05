@@ -46,7 +46,6 @@ public class PalindromTest {
     @Test
     public void searchPal_negativeTestCase_notMax()  {
         Assert.assertTrue(this.p.searchPal("abc").equals( ""));
-//        Assert.assertFalse("Nu este palindrom", this.p.searchPal("B12321").equals("B"));
     }
 
     /**
@@ -54,6 +53,6 @@ public class PalindromTest {
      */
     @Test
     public void searchPal_negativeTestCase_multipleMax()  {
-        Assert.assertTrue(this.p.searchPal("aa3bbbbaa").equals( "bbbb"));
+        Assert.assertTrue(this.p.searchPal("aa3bbbbaaaa").equals( "bbbb"));
     }
 }
